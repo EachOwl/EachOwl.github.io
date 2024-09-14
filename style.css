@@ -1,0 +1,20 @@
+body > header { /* UPDATED */
+    background-color: orange;
+   }
+body > footer { /* UPDATED */
+    background-color: orange;
+   }
+body {
+    margin: 0; /* NEW */
+    font-family: Helvetica, Arial, sans-serif;
+   }  
+body > footer > p { /* NEW */
+    padding: 16px; /* NEW */
+    color: white; /* NEW */
+    text-align: center; /* NEW */
+   }
+body > header { /* NEW */
+    background-color: orange; /* NEW */
+    color: white; /* NEW */
+   } /* NEW */
+      
