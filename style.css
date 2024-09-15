@@ -1,10 +1,11 @@
-body > header { /* UPDATED */
+body > header { /* UPDATED */   
     background-color: orange;
    }
 body > footer { /* UPDATED */
-    background-color: orange;
+    background-color: rgb(10, 245, 225);
    }
 body {
+    
     margin: 0; /* NEW */
     font-family: Helvetica, Arial, sans-serif;
    }  
@@ -14,7 +15,35 @@ body > footer > p { /* NEW */
     text-align: center; /* NEW */
    }
 body > header { /* NEW */
-    background-color: orange; /* NEW */
-    color: white; /* NEW */
+    background-color: rgb(10, 245, 225); /* NEW */
+    color: black; /* NEW */
    } /* NEW */
-      
+   #nav-ul {
+    display: flex;
+    }
+
+    #nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+    }
+
+    .navbutton {
+    colour: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    }
+
+main {
+    padding: 0 16px;
+}
+
+img {
+    width: 80%;
+}
+
+
+
+header > nav > ul {
+    display: flex;
+}
