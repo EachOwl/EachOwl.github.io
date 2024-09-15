@@ -22,19 +22,19 @@ body > header { /* NEW */
     display: flex;
     }
 
-    #nav-ul > li {
+#nav-ul > li {
     padding: 8px;
     margin: 16px;
     }
 
-    .navbutton {
+.navbutton {
     colour: white;
     text-decoration: none;
     padding: 12px;
     border: 1px solid white;
     }
 
-main {
+    main {
     padding: 0 16px;
 }
 
